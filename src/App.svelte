@@ -28,6 +28,7 @@
 </script>
 
 <main>
+  <h1>Check Price of BNB At Specific Date</h1>
 	<label for="bnbpricetime">Time to check (in UCT):</label>
   <input type="datetime-local" class="bnbPriceTime" name="bnbpricetime" on:change={fillPrice}>
 
